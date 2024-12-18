@@ -1,6 +1,8 @@
+import Description from "./description";
+
 const Main = () => {
     return (
-        <div>main</div>
+       <Description />
     )
 }
 
