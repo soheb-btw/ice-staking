@@ -3,19 +3,28 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #F3FBFF;
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: white) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #F3FBFF;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  background-image: linear-gradient(white 1px, transparent 1px), linear-gradient(90deg, white 1px, transparent 1px);
+  background-size: 50px 50px;
+  min-height: 100vh;
 }
