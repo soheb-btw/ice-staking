@@ -1,6 +1,13 @@
 import Image from "next/image";
 
-const ProjectCard = ({project}) => {
+interface Project {
+    name: string;
+    detail: string;
+    description: string;
+    logo: string;
+}
+
+const ProjectCard = ({ project }: { project: Project }) => {
     return (
         <div className="flex p-6 bg-white rounded-2xl flex-col justify-start items-start gap-10">
             <div className="flex flex-col justify-start items-start gap-5">
@@ -15,8 +22,8 @@ const ProjectCard = ({project}) => {
                 <div className="self-stretch text-[#092835] text-base font-medium font-jet-brains leading-[21px]">{project.description}</div>
             </div>
             <div className="flex gap-3">
-                <Image src={'/assets/ellipse.svg'} width={32} height={32} alt={'globe logo'}/>
-                <Image src={'/assets/github.svg'} width={32} height={32} alt={'github logo'}/>
+                <Image src={'/assets/ellipse.svg'} width={32} height={32} alt={'globe logo'} />
+                <Image src={'/assets/github.svg'} width={32} height={32} alt={'github logo'} />
             </div>
         </div>
     )
