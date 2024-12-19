@@ -12,6 +12,14 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily:{
+        'tasa-orbiter': ['Tasa Orbiter Display', 'sans-serif'],
+        'jet-brains': ['JetBrains Mono', 'monospace'],
+      },
+      screens: {
+        'sm-lg': '940px', 
+        'screen-xl': '1365'
+      },
     },
   },
   plugins: [],
