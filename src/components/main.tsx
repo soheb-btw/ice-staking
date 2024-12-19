@@ -5,7 +5,7 @@ import Resources from "./resources";
 
 const Main = () => {
     return (
-        <div className="mx-10 sm-lg:mx-auto gap-10 sm-lg:max-w-[850px] flex flex-col sm-lg:gap-[120px]">
+        <div className="mx-10 sm-lg:mx-auto gap-10 sm-lg:max-w-[842px] flex flex-col sm-lg:gap-[120px]">
             <Description />
             <Highlights />
             <Projects />

@@ -5,7 +5,7 @@ const Description = () => {
     return (
         <div className="flex items-center justify-center py-5">
             <div className="relative flex justify-between gap-[60px] flex-col">
-                <div className="flex w-fit font-jet-brains gap-x-4 justify-around bg-[#f1f9ff] border-opacity-[12%] border-[#25ABE2] border-[2px] py-[6px] px-3 shadow-[0_0_20px_0_#25ABE21F] backdrop-filter: blue(4px) rounded-[10px] font-bold text-sm after:content-[url('/assets/snow-1.svg')] after:h-auto after:w-full after:bg-no-repeat after:absolute after:top-[-8px] after:right-[-50px]">
+                <div className="flex w-fit font-jet-brains gap-x-4 justify-around bg-[#f1f9ff] border-opacity-[12%] border-[#25ABE2] border-[2px] py-[6px] px-3 shadow-[0_0_20px_0_#25ABE21F] backdrop-filter: blue(4px) rounded-[10px] font-bold text-sm after:content-[url('/assets/snow-1.svg')] after:h-auto after:w-auto after:bg-no-repeat after:absolute after:top-[-8px] after:right-0 after:left-0 after:ml-14">
                     <span className="bg-clip-text text-transparent bg-gradient-to-t from-[#25ABE2] to-[#0A2935]">$105 TVL</span>
                     <span className="border-[1px] border-[#25ABE2] border-opacity-[20%]"></span>
                     <span className="bg-clip-text text-transparent bg-gradient-to-t from-[#25ABE2] to-[#0A2935]">5.2M SOL Staked</span>

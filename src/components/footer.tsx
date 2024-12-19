@@ -3,8 +3,8 @@ import Image from "next/image";
 const Footer = () => {
     return (
         <div className="pt-10 mx-auto flex relative flex-col w-full justify-end left-0 bg-white mt-[120px] gap-4 font-jet-brains">
-            <Image className="hidden w-full absolute z-[-1] sm-lg:block sm-lg:top-[-100px] screen-xl:top-[-130px]" src={'/assets/footer-wave.svg'} width={1200} height={1200} alt={'footer wave'} />
-            <div className="flex-col flex px-10 pb-10 gap-10 sm-lg:max-w-[850px] sm-lg:flex-row mx-auto w-full sm-lg:gap-11">
+            <Image className="hidden w-full absolute z-[-1] sm-lg:block sm-lg:top-[-90px] screen-xl:top-[-130px]" src={'/assets/footer-wave.svg'} width={1200} height={1200} alt={'footer wave'} />
+            <div className="flex-col flex px-10 pb-10 gap-10 sm-lg:max-w-[842px] sm-lg:flex-row mx-auto w-full sm-lg:gap-11">
                 <div className="mr-auto flex flex-col gap-4">
                     <div className="text-[#25abe2] text-sm font-semibold font-tasa-orbiter">ABOUT US</div>
                     <Image src={'/assets/ice-skating-footer-logo.svg'} width={52} height={52} alt={'footer wave'} />
